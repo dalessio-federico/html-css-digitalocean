@@ -1,0 +1,34 @@
+/* Impostazioni Nav fixed/top Header */
+
+/* costumizzazione navbar */
+.ms_navbar {
+  /* da cancellare */
+  background-color: #e8e8e8;
+  /* da cancellare */
+  margin-bottom: 0;
+  color: #0e2555;
+  height: 10vh;
+}
+
+#top_header .ms_navbar .navbar-header {
+  margin-right: 100px;
+}
+/* fine costumizzazione nav bar */
+
+/* colori scritte */
+#top_header .ms_navbar ul li a {
+  color: #0e2555
+}
+/* fine colori scritte */
+
+/* costumizzazione btn navbar */
+#top_header .navbar-right li .ms_btn {
+  background-color: #fff0;
+  border-color: #408fff;;
+  color: #408fff;
+}
+#top_header .navbar-right li .ms_btn:focus {
+  outline: 0;
+}
+/* fine costumizzazione btn navbar */
+/* fine impostazioni nav fixed/top header */
