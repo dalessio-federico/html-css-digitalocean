@@ -1,5 +1,5 @@
 /* finfo generiche da riutilizzare */
-.azzurro {
+.ms_azzurro {
   color: #408fff;
 }
 
@@ -18,9 +18,8 @@
   color: #0e2555;
   height: 10vh;
 }
-
-#top_header .ms_navbar .navbar-header {
-  margin-right: 100px;
+.ms_navbar_left {
+  margin-left: 20%;
 }
 /* fine costumizzazione nav bar */
 
@@ -39,6 +38,17 @@
   outline: 0;
 }
 /* fine costumizzazione btn navbar */
+/* costumizzazione button collapse */
+.navbar-default .navbar-toggle .ms_custom_toggle {
+  background-color: #408fff;
+  height: 4px;
+  border-radius: 20px;
+}
+
+.ms_costume_collapsed {
+  border: 0;
+}
+/* fine costumizzazione button collapse */
 /* fine impostazioni nav fixed/top header */
 
 /* inizio impostazioni bottom header */
@@ -52,8 +62,11 @@
 /* info form header */
 .ms_header_form {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 15px;
 }
 
 /* fine impostazioni bottom header */
+
+
+/* custom media query */
