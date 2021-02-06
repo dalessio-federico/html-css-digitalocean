@@ -5,6 +5,9 @@ body {
 }
 
 /* finfo generiche da riutilizzare */
+h2 {
+  color: #031c4e;
+}
 .ms_azzurro {
   color: #408fff;
 }
@@ -25,6 +28,11 @@ body {
 
 .background_grey {
   background-color: #f3f5f9;
+}
+
+.background_blue {
+  background-color: #0042bf;
+  background-image: linear-gradient(#0051ea,#001e99);
 }
 /* inizio header */
 /* Impostazioni Nav fixed/top Header */
@@ -144,15 +152,48 @@ list-style: none;
 }
 /* impostazioni info designed */
 
-/* info_features */
+/* impostazioni info features */
 /* da cancellare */
 #info_features .ms_placeholder {
   height: 20px;
   width: 20px;
   background-color: black;
-  /* da cancellare */
 }
-/* fine info_features */
+  /* da cancellare */
+/* fine info features */
+
+/* impostazioni info service regione */
+#info_service_region h2 {
+  color: white;
+}
+#info_service_region .ms_row_service {
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+}
+#info_service_region .ms_row_service:last-child {
+  border-bottom: 0;
+}
+
+#info_service_region .ms_row_service .sigla {
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+#info_service_region .ms_row_service p {
+  display: inline-block;
+  padding-right: 50px;
+}
+#info_service_region .ms_row_service a {
+  display: inline-block;
+}
+/*fine impostazioni info service regione */
 /* fine main */
 
 /* custom media query */
+@media only screen and (max-width: 992px) {
+  .ms_sm_sx_margin {
+    margin-bottom: 35px;
+  }
+}
