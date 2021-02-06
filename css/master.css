@@ -10,6 +10,13 @@
   padding-bottom: 30px;
 }
 
+.margin_top {
+  margin-top: 30px;
+}
+.margin_bottom {
+  margin-bottom: 30px;
+}
+/* inizio header */
 /* Impostazioni Nav fixed/top Header */
 
 /* costumizzazione navbar */
@@ -67,6 +74,21 @@
 }
 
 /* fine impostazioni bottom header */
+/* fine header */
 
+/* inizio main */
+/* impostazioni id affiliati */
+#affiliati {
+  background-color: #f3f5f9;
+}
+/* placeholder da cancellare */
+.ms_placeholder {
+  background-color: white;
+  border: 1px solid black;
+  padding: 4% 0;
+}
+/* placeholder da cancellare */
+/* fine impostazioni id affiliati */
+/* fine main */
 
 /* custom media query */
