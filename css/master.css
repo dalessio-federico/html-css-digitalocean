@@ -34,6 +34,11 @@ h2 {
   background-color: #0042bf;
   background-image: linear-gradient(#0051ea,#001e99);
 }
+
+.ms_resized {
+  width: 60%;
+  margin: 0 auto;
+}
 /* inizio header */
 /* Impostazioni Nav fixed/top Header */
 
@@ -52,6 +57,7 @@ h2 {
 #top_header .ms_navbar ul li a {
   color: #0e2555
 }
+
 /* fine colori scritte */
 
 /* costumizzazione btn navbar */
@@ -77,6 +83,14 @@ h2 {
 /* fine impostazioni nav fixed/top header */
 
 /* inizio impostazioni bottom header */
+#bottom_header h1 {
+  color: white;
+}
+
+#bottom_header p {
+  color: #b3c7ff;
+}
+
 .msjumbo {
   /* da sostituire con bg img*/
   background-color: #004aff;
@@ -127,10 +141,6 @@ list-style: none;
 /* fine impostazioni info deploy */
 
 /* impostazioni info designed */
-#info_designed .ms_resized {
-  width: 60%;
-  margin: 0 auto;
-}
 /* da cancellare */
 #info_designed .ms_resized .ms_placeholder {
   display: inline-block;
@@ -166,6 +176,7 @@ list-style: none;
 #info_service_region h2 {
   color: white;
 }
+
 #info_service_region .ms_row_service {
   border-bottom: 1px solid white;
   margin-bottom: 5px;
@@ -184,12 +195,55 @@ list-style: none;
 #info_service_region .ms_row_service p {
   display: inline-block;
   padding-right: 50px;
+  color: #b3c7ff;
 }
 #info_service_region .ms_row_service a {
   display: inline-block;
 }
 /*fine impostazioni info service regione */
+
+/* impostazioni info development */
+/* da cancellare */
+#info_development .ms_resized .ms_placeholder {
+  display: inline-block;
+  width: 80%;
+  height: 300px;
+  background-color: white;
+}
+/* da cancellare */
+
+#info_development .ms_tre_puntini .ms_puntino {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #408fff;
+  border-radius: 50%;
+}
+#info_development .ms_tre_puntini .ms_puntino:nth-child(2) {
+  background-color: #408fff
+}
+/* fine info development */
+
+/* impostazioni info get started */
+#info_getstarted h2 {
+  color: white;
+}
+
+#info_getstarted .ms_resized {
+  width: 25%;
+}
+
+#info_getstarted .ms_costume_btn {
+  padding: 5px 16px;
+}
 /* fine main */
+
+/* inizio footer */
+#contatti {
+  background-color: #031c4e;
+  height: 50vh;
+}
+/* fine footer */
 
 /* custom media query */
 @media only screen and (max-width: 992px) {
