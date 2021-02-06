@@ -1,3 +1,9 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  color: #828ca3;
+}
+
 /* finfo generiche da riutilizzare */
 .ms_azzurro {
   color: #408fff;
@@ -82,13 +88,33 @@
   background-color: #f3f5f9;
 }
 /* placeholder da cancellare */
-.ms_placeholder {
+#affiliati .ms_placeholder {
   background-color: white;
   border: 1px solid black;
   padding: 4% 0;
 }
 /* placeholder da cancellare */
 /* fine impostazioni id affiliati */
+
+/* Impostazioni id info deploy */
+#info_deploy .ms_lista {
+list-style: none;
+}
+#info_deploy .ms_lista li {
+  padding-bottom: 20px;
+}
+#info_deploy .ms_lista li a {
+  color: #828ca3;
+  border-left: 1px solid black;
+  padding-bottom: 20px;
+}
+
+#info_deploy .ms_placeholder {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+}
+/* fine impostazioni info deploy */
 /* fine main */
 
 /* custom media query */
