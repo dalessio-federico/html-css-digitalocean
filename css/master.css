@@ -87,10 +87,15 @@ h2 {
   color: white;
 }
 
-#bottom_header p {
+#bottom_header p:not(.speciale) {
   color: #b3c7ff;
 }
 
+#bottom_header .ms_costume_btn {
+  background-color: #579aff;
+  border-color: #579aff;
+  color: white;
+}
 .msjumbo {
   /* da sostituire con bg img*/
   background-color: #004aff;
@@ -241,7 +246,40 @@ list-style: none;
 /* inizio footer */
 #contatti {
   background-color: #031c4e;
-  height: 50vh;
+}
+
+#contatti .scritte_footer {
+  margin-bottom: 10px;
+}
+#contatti p {
+  margin: 0;
+}
+
+#contatti .ms_placeholder {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+#contatti .ms_lessimportant {
+  color: #4f5f7f;
+}
+
+#contatti ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contatti ul li {
+  margin-bottom: 5px;
+}
+#contatti ul li:first-child {
+  color: white;
+  font-weight: bold;
+}
+
+#contatti ul li a {
+  color: #828ca3;
 }
 /* fine footer */
 
