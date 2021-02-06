@@ -246,6 +246,7 @@ list-style: none;
 /* inizio footer */
 #contatti {
   background-color: #031c4e;
+  position: relative;
 }
 
 #contatti .scritte_footer {
@@ -280,6 +281,18 @@ list-style: none;
 
 #contatti ul li a {
   color: #828ca3;
+}
+
+#helping_shark {
+  height: 30px;
+  width: 60px;
+  background-color: #ececee;
+}
+.ms_fixed_bottom {
+  position: fixed;
+  z-index: 999999;
+  bottom: 3%;
+  right: 2%;
 }
 /* fine footer */
 
