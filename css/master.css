@@ -145,13 +145,15 @@ h2 {
 
 /* inizio main */
 /* impostazioni id affiliati */
-/* placeholder da cancellare */
-#affiliati .ms_placeholder {
-  background-color: white;
-  border: 1px solid black;
-  padding: 4% 0;
+#affiliati img {
+  max-width: 100%;
+  vertical-align: middle;
 }
-/* placeholder da cancellare */
+
+#affiliati .ms_link_topmain span {
+  top: 0;
+  font-size: 12px;
+}
 /* fine impostazioni id affiliati */
 
 /* Impostazioni id info deploy */
