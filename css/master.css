@@ -200,8 +200,12 @@ margin-bottom: 40px;
 /* fine impostazioni info deploy */
 
 /* impostazioni info designed */
+#info_designed .ms_resized {
+  width: 80%
+}
+
 #info_designed .ms_resized img {
-  height: 340px;
+  height: 350px;
   max-width: 100%;
 }
 
@@ -259,11 +263,13 @@ margin-bottom: 40px;
 
 /* impostazioni info development */
 /* da cancellare */
-#info_development .ms_resized .ms_placeholder {
-  display: inline-block;
+#info_development .ms_resized {
   width: 80%;
+}
+
+#info_development .ms_resized img {
   height: 300px;
-  background-color: white;
+  max-width: 100%;
 }
 /* da cancellare */
 
