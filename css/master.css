@@ -47,9 +47,16 @@ h2 {
   margin-bottom: 0;
   color: #0e2555;
   height: 10vh;
+  background-color: white;
 }
+
 .ms_navbar_left {
-  margin-left: 20%;
+  margin-left: 10%;
+}
+
+#top_header span {
+  padding-left: 7px;
+  font-size: 10px;
 }
 /* fine costumizzazione nav bar */
 
@@ -85,6 +92,8 @@ h2 {
 /* inizio impostazioni bottom header */
 #bottom_header h1 {
   color: white;
+  font-size: 3em;
+  margin-bottom: 35px;
 }
 
 #bottom_header p:not(.speciale) {
@@ -96,6 +105,27 @@ h2 {
   border-color: #579aff;
   color: white;
 }
+
+#bottom_header .ms_testo_form p {
+  color: black;
+  font-size: 30px;
+}
+#bottom_header .ms_testo_form .ms_azzurro {
+  color: #408fff
+}
+
+#bottom_header .speciale a {
+  text-decoration: underline;
+  color: #408fff;
+}
+.ms_textaligin {
+  text-align: left;
+}
+.ms_header_form form img {
+  width: 37%;
+  padding-right: 31%;
+}
+
 .msjumbo {
   /* da sostituire con bg img*/
   background-color: #004aff;
@@ -281,6 +311,7 @@ list-style: none;
 
 #contatti ul li a {
   color: #828ca3;
+  text-decoration: none;
 }
 
 #helping_shark {
