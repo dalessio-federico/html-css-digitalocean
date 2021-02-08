@@ -7,6 +7,7 @@ body {
 /* finfo generiche da riutilizzare */
 h2 {
   color: #031c4e;
+  font-size: 2.5em;
 }
 .ms_azzurro {
   color: #408fff;
@@ -50,13 +51,20 @@ h2 {
   background-color: white;
 }
 
-.ms_navbar_left {
-  margin-left: 10%;
+#top_header .container .navbar-header img {
+  height: 30px;
 }
 
 #top_header span {
   padding-left: 7px;
   font-size: 10px;
+}
+
+#top_header .navbar-right ul {
+  display: inline-block;
+}
+#top_header .navbar-right ul:first-child {
+  padding-right: 250px;
 }
 /* fine costumizzazione nav bar */
 
@@ -65,8 +73,10 @@ h2 {
   color: #0e2555
 }
 
+.ms_navbar_right {
+ line-height: 60px;
+}
 /* fine colori scritte */
-
 /* costumizzazione btn navbar */
 #top_header .navbar-right li .ms_btn {
   background-color: #fff0;
@@ -157,24 +167,28 @@ h2 {
 /* fine impostazioni id affiliati */
 
 /* Impostazioni id info deploy */
+#info_deploy .ms_resized {
+  width: 90%;
+  margin: 0 auto;
+}
+
 #info_deploy .ms_lista {
 list-style: none;
 }
 #info_deploy .ms_lista li {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 #info_deploy .ms_lista li a {
   color: #828ca3;
   border-left: 1px solid black;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  font-size: 16px;
 }
-/* placeholder da cancellare */
-#info_deploy .ms_placeholder {
-  height: 20px;
-  width: 20px;
-  background-color: black;
+
+#info_deploy .ms_minisezione_deploy {
+  height: 170px;
 }
-/* placeholder da cancellare */
 /* fine impostazioni info deploy */
 
 /* impostazioni info designed */
@@ -333,5 +347,9 @@ list-style: none;
 @media only screen and (max-width: 992px) {
   .ms_sm_sx_margin {
     margin-bottom: 35px;
+  }
+
+  #top_header .navbar-right ul:first-child {
+    padding-right: 75px;
   }
 }
