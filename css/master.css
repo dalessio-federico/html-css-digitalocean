@@ -144,9 +144,9 @@ h2 {
 }
 
 .msjumbo {
-  /* da sostituire con bg img*/
+  background-image: url(../img/bg-home-hero.svg);
+  background-size: cover;
   background-color: #004aff;
-  /* da sostituire con bg img*/
   margin-top: 10vh;
 }
 
