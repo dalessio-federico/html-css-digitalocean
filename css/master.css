@@ -8,7 +8,14 @@ body {
 h2 {
   color: #031c4e;
   font-size: 2.5em;
+  padding-bottom: 15px;
 }
+
+.ms_subtitle {
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
 .ms_azzurro {
   color: #408fff;
 }
@@ -192,14 +199,14 @@ list-style: none;
 /* fine impostazioni info deploy */
 
 /* impostazioni info designed */
-/* da cancellare */
-#info_designed .ms_resized .ms_placeholder {
-  display: inline-block;
-  width: 80%;
-  height: 300px;
-  background-color: white;
+#info_designed .ms_resized img {
+  height: 340px;
+  max-width: 100%;
 }
-/* da cancellare */
+
+#info_designed .ms_resized p {
+  color: #031c4e
+}
 
 #info_designed .ms_tre_puntini .ms_puntino {
   display: inline-block;
