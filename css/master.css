@@ -309,13 +309,16 @@ margin-bottom: 40px;
   margin-bottom: 10px;
 }
 #contatti p {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+}
+#contatti .ms_lessimportant {
   margin: 0;
 }
 
-#contatti .ms_placeholder {
-  height: 50px;
-  width: 50px;
-  background-color: white;
+#contatti img {
+  height: 40px;
+  max-width: 100%;
 }
 
 #contatti .ms_lessimportant {
