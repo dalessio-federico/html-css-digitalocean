@@ -181,6 +181,7 @@ h2 {
 
 #info_deploy .ms_lista {
 list-style: none;
+margin-bottom: 40px;
 }
 #info_deploy .ms_lista li {
   padding-bottom: 25px;
@@ -221,13 +222,10 @@ list-style: none;
 /* impostazioni info designed */
 
 /* impostazioni info features */
-/* da cancellare */
-#info_features .ms_placeholder {
-  height: 20px;
-  width: 20px;
-  background-color: black;
+#info_features .ms_minisezione_features h4 {
+  color: #031c4e;
 }
-  /* da cancellare */
+
 /* fine info features */
 
 /* impostazioni info service regione */
