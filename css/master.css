@@ -249,12 +249,11 @@ margin-bottom: 40px;
 }
 
 #info_service_region .ms_row_service p {
-  display: inline-block;
   padding-right: 50px;
   color: #b3c7ff;
 }
 #info_service_region .ms_row_service a {
-  display: inline-block;
+  color: #00d5d1;
 }
 /*fine impostazioni info service regione */
 
