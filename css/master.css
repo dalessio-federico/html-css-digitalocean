@@ -166,6 +166,12 @@ h2 {
   max-width: 100%;
   vertical-align: middle;
 }
+#affiliati .row .col-lg-2:not(.ms_riposizione) {
+  padding-top: 7px;
+}
+#affiliati .row .col-lg-2:nth-child(4) {
+  padding-top: 12px;
+}
 
 #affiliati .ms_link_topmain span {
   top: 0;
@@ -415,5 +421,12 @@ margin-bottom: 40px;
 
   #top_header .navbar-right ul:first-child {
     padding-right: 75px;
+  }
+
+  #affiliati .row .col-lg-2:not(.ms_riposizione) {
+    padding-top: 0px;
+  }
+  #affiliati .row .col-lg-2:nth-child(4) {
+    padding-top: 0px;
   }
 }
